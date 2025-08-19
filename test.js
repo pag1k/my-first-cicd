@@ -10,7 +10,7 @@ if (sum(-1, 1) !== 0) {
     process.exit(1);
 }
 
-if (sum(5, 5) !== 10 {
+if (sum(5, 5) !== 10) {
     console.error('Test failed: 5 + 5 should equal 10');
     process.exit(1);
 }
