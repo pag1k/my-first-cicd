@@ -5,7 +5,7 @@ if (sum(2, 3) !== 5) {
     process.exit(1);
 }
 
-if (sum(-1, 1) == 0) {
+if (sum(-1, 1) !== 0) {
     console.error('Test failed: -1 + 1 should equal 0');
     process.exit(1);
 }
